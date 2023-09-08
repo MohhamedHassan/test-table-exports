@@ -1,0 +1,14 @@
+::ng-deep {
+    .p-datatable .p-datatable-tbody > tr > td,
+    .p-datatable .p-datatable-thead > tr > th{
+        white-space: nowrap !important;
+    }
+    .p-paginator .p-paginator-current{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .card {
+        width:50%
+    }
+}
