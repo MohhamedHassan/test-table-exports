@@ -100,8 +100,11 @@ class="card">
         </ng-template>
         <ng-template pTemplate="header" let-columns>
             <tr>
-                <th *ngFor="let col of columns">
+                <th 
+                [pSortableColumn]="col?.field"
+                *ngFor="let col of columns">
                     {{ col.header }}
+                    <p-sortIcon [field]="col?.field"></p-sortIcon>
                 </th>
             </tr>
         </ng-template>
