@@ -18,10 +18,12 @@ export class TestPrimengDatatableComponent {
             this.products = data;
         });
         this.cols = [
-          { field: 'code', header: 'عربي', customExportHeader: 'Product Code' },
-          { field: 'name', header: 'Name' },
-          { field: 'category', header: 'Category' },
-          { field: 'quantity', header: 'Quantity' }
+          { field: 'code', header:'مؤسسة نخبة رية' },
+          { field: 'name', header: 'bqens' },
+          { field: 'category', header: 'cs' },
+          { field: 'quantity', header: 'zop' },
+          { field: 'name', header: 'ow' },
+          { field: 'id', header: '3t' }
       ];
       this.exportColumns = this.cols.map((col) => ({ title: col.header, dataKey: col.field }))
     }
